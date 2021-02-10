@@ -1,0 +1,27 @@
+.green{
+    background-color: green!important;
+    color:white!important;
+}
+.green *{
+    color: white!important;
+}
+.orange{
+    background-color: orange!important;
+    color:white!important;
+}
+.orange *{
+    color:white!important;
+}
+.red{
+    background-color: red!important;
+    color:black!important;
+}
+.infoBox{
+   margin:0px 2px;
+}
+@media(max-width:720px)
+{
+    .infoBox *{
+        font-size:14px!important;
+    }
+}
